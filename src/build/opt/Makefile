@@ -1765,6 +1765,33 @@ addr_trans.c.s:
 	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/addr_trans.c.s
 .PHONY : addr_trans.c.s
 
+bp/bimodal.o: bp/bimodal.cc.o
+
+.PHONY : bp/bimodal.o
+
+# target to build an object file
+bp/bimodal.cc.o:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/bimodal.cc.o
+.PHONY : bp/bimodal.cc.o
+
+bp/bimodal.i: bp/bimodal.cc.i
+
+.PHONY : bp/bimodal.i
+
+# target to preprocess a source file
+bp/bimodal.cc.i:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/bimodal.cc.i
+.PHONY : bp/bimodal.cc.i
+
+bp/bimodal.s: bp/bimodal.cc.s
+
+.PHONY : bp/bimodal.s
+
+# target to generate assembly for a file
+bp/bimodal.cc.s:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/bimodal.cc.s
+.PHONY : bp/bimodal.cc.s
+
 bp/bp.o: bp/bp.c.o
 
 .PHONY : bp/bp.o
@@ -4143,6 +4170,9 @@ help:
 	@echo "... addr_trans.o"
 	@echo "... addr_trans.i"
 	@echo "... addr_trans.s"
+	@echo "... bp/bimodal.o"
+	@echo "... bp/bimodal.i"
+	@echo "... bp/bimodal.s"
 	@echo "... bp/bp.o"
 	@echo "... bp/bp.i"
 	@echo "... bp/bp.s"

@@ -1,5 +1,5 @@
-#include <vector>
 #include "bimodal.h"
+#include <vector>
 
 extern "C" {
 #include "bp/bp.param.h"
@@ -20,10 +20,11 @@ struct Bimodal_State {
 };
 
 std::vector<Bimodal_State> bimodal_state_all_cores;
-
+} //namespace
 void bp_bimodal_timestamp(Op* op) {}
 void bp_bimodal_recover(Recovery_Info* info) {}
 void bp_bimodal_spec_update(Op* op) {}
+void bp_bimodal_retire(Op* op){}
 uns8 bp_bimodal_full(uns proc_id) { return 0; } 
 
 uns8 bp_bimodal_pred(Op* op) {
@@ -61,4 +62,3 @@ void bp_bimodal_init(void) {
     }
 }
 
-}  // namespace

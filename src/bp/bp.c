@@ -59,6 +59,7 @@
 #include "prefetcher/pref.param.h"
 #include "prefetcher/fdip_new.h"
 
+#include "bp/bimodal.h"
 /******************************************************************************/
 /* include the table of possible branch predictors */
 

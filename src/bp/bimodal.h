@@ -1,5 +1,5 @@
-#ifndef BIMODAL_H
-#define BIMODAL_H
+#ifndef __BIMODAL_H__
+#define __BIMODAL_H__
 
 #ifdef __cplusplus
 extern "C"{
@@ -17,7 +17,7 @@ void bp_bimodal_recover(Recovery_Info*);
 uns8 bp_bimodal_full(uns);
 
 
-#ifdef
+#ifdef __cplusplus
 
 }
 #endif

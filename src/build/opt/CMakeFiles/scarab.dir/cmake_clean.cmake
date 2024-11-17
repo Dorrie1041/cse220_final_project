@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scarab.dir/addr_trans.c.o"
+  "CMakeFiles/scarab.dir/bp/bimodal.cc.o"
   "CMakeFiles/scarab.dir/bp/bp.c.o"
   "CMakeFiles/scarab.dir/bp/bp_conf.c.o"
   "CMakeFiles/scarab.dir/bp/bp_targ_mech.c.o"

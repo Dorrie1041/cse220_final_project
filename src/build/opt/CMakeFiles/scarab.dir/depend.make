@@ -35,6 +35,7 @@ CMakeFiles/scarab.dir/addr_trans.c.o: ../../memory/memory.param.h
 CMakeFiles/scarab.dir/addr_trans.c.o: ../../ramulator.param.def
 CMakeFiles/scarab.dir/addr_trans.c.o: ../../ramulator.param.h
 
+CMakeFiles/scarab.dir/bp/bp.c.o: ../../bp/bimodal.h
 CMakeFiles/scarab.dir/bp/bp.c.o: ../../bp/bp.h
 CMakeFiles/scarab.dir/bp/bp.c.o: ../../bp/bp.param.def
 CMakeFiles/scarab.dir/bp/bp.c.o: ../../bp/bp.param.h
@@ -2919,6 +2920,47 @@ CMakeFiles/scarab.dir/trigger.c.o: ../../trigger.h
 CMakeFiles/scarab.dir/version.c.o: ../../gitrev
 CMakeFiles/scarab.dir/version.c.o: ../../version.c
 CMakeFiles/scarab.dir/version.c.o: ../../version.h
+
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bp.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bp.param.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bp.param.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bp.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/cbp_table.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../core.param.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../core.param.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../core.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../ctype_pin_inst.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../debug/debug.param.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../debug/debug.param.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../debug/debug_macros.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../fetch.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../freq.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../ft_info.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../general.param.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../general.param.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/assert.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/enum.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/global_defs.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/global_types.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/global_vars.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../globals/utils.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../inst.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../inst_info.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../libs/cache_lib.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../libs/hash_lib.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../libs/list_lib.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../memory/memory.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../op.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../op_info.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../power/power.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../prefetcher/l2l1pref.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../prefetcher/pref.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../prefetcher/stream.stat.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../stat_files.def
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../statistics.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../table_info.h
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bimodal.cc
+CMakeFiles/scarab.dir/bp/bimodal.cc.o: ../../bp/bimodal.h
 
 CMakeFiles/scarab.dir/bp/cbp_tagescl_64k.cc.o: ../../bp/bp.h
 CMakeFiles/scarab.dir/bp/cbp_tagescl_64k.cc.o: ../../bp/bp.stat.def
