@@ -469,4 +469,4 @@ if __name__ == "__main__":
     descriptor_data = read_descriptor_from_json(descriptor_filename)
 
     if descriptor_data:
-        get_dcache_miss_ratios(descriptor_data, args.simulation_path, args.output_dir)  
+        get_branch_misprediction_ratio(descriptor_data, args.simulation_path, args.output_dir)  
