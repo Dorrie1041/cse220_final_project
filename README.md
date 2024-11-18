@@ -1,4 +1,3 @@
-# cse220_final_project
 # Branch Prediction Implementation: Perceptron and Bi-Mode Predictors
 This repository contains the implementation of two branch prediction mechanisms: Perceptron-based prediction and Bi-mode prediction. These implementations are located in the src/bp directory and include the following files:
 
