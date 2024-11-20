@@ -1,6 +1,6 @@
 
-#ifndef __PREDICTOR_H__
-#define __PREDICTOR_H__
+#ifndef __PERCEPTRON_H__
+#define __PERCEPTRON_H__
 
 #ifdef __cplusplus
 extern "C"{
