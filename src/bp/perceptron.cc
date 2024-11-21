@@ -87,7 +87,7 @@ void bp_perceptron_update(Op* op) {
         weights[0] += (actual ? 1 : -1);
         weights[0] = clamp(weights[0], MIN_WT, MAX_WT);
 
-        for (int i = 0; i < HIST_LENGTH; ++i){
+        for (uns i = 0; i < HIST_LENGTH; ++i){
             weights[i + 1] += (actual ? history[i] : -history[i]);
             weights[i + 1] = clamp(weights[i + 1], MIN_WT, MAX_WT);
         }
