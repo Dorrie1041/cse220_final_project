@@ -2008,6 +2008,33 @@ bp/mtage_unlimited.cc.s:
 	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.s
 .PHONY : bp/mtage_unlimited.cc.s
 
+bp/perceptron.o: bp/perceptron.cc.o
+
+.PHONY : bp/perceptron.o
+
+# target to build an object file
+bp/perceptron.cc.o:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/perceptron.cc.o
+.PHONY : bp/perceptron.cc.o
+
+bp/perceptron.i: bp/perceptron.cc.i
+
+.PHONY : bp/perceptron.i
+
+# target to preprocess a source file
+bp/perceptron.cc.i:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/perceptron.cc.i
+.PHONY : bp/perceptron.cc.i
+
+bp/perceptron.s: bp/perceptron.cc.s
+
+.PHONY : bp/perceptron.s
+
+# target to generate assembly for a file
+bp/perceptron.cc.s:
+	$(MAKE) -f CMakeFiles/scarab.dir/build.make CMakeFiles/scarab.dir/bp/perceptron.cc.s
+.PHONY : bp/perceptron.cc.s
+
 bp/tagescl.o: bp/tagescl.cc.o
 
 .PHONY : bp/tagescl.o
@@ -4197,6 +4224,9 @@ help:
 	@echo "... bp/mtage_unlimited.o"
 	@echo "... bp/mtage_unlimited.i"
 	@echo "... bp/mtage_unlimited.s"
+	@echo "... bp/perceptron.o"
+	@echo "... bp/perceptron.i"
+	@echo "... bp/perceptron.s"
 	@echo "... bp/tagescl.o"
 	@echo "... bp/tagescl.i"
 	@echo "... bp/tagescl.s"

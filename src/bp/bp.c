@@ -60,6 +60,7 @@
 #include "prefetcher/fdip_new.h"
 
 #include "bp/bimodal.h"
+#include "bp/perceptron.h"
 /******************************************************************************/
 /* include the table of possible branch predictors */
 

@@ -29,6 +29,7 @@ deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/__/core/unix/nudgesig.c.o: ../..
 deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/__/core/unix/nudgesig.c.o: ../../deps/dynamorio/core/utils.h
 deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/__/core/unix/nudgesig.c.o: ../../deps/dynamorio/core/vmareas.h
 deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/__/core/unix/nudgesig.c.o: deps/dynamorio/configure.h
+deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/__/core/unix/nudgesig.c.o: deps/dynamorio/event_strings.h
 
 deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/nudgeunix.c.o: ../../deps/dynamorio/core/lib/c_defines.h
 deps/dynamorio/tools/CMakeFiles/drnudgeunix.dir/nudgeunix.c.o: ../../deps/dynamorio/core/lib/globals_api.h

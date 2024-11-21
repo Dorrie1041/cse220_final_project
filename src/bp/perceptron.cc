@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <iostream>
+#include <algorithm>
 
 extern "C" {
 #include "bp.param.h"
@@ -48,15 +49,12 @@ uns8 bp_perceptron_pred(Op* op){
     const auto& weights = perceptron_state.perceptron_table[perceptron_index];
 
     std::vector<int> history(HIST_LENGTH);
-    for (int i = 0; i < HIST_LENGTH; ++i){
-        history[i] = (hist & (1 << i)) ? 1 : -1;
+    for (uns i = 0; i < HIST_LENGTH; ++i){
+         prediction += perceptron_state.weights[i + 1] * ((hist >> i) & 1 ? 1 : -1);
     }
 
     int result = compute_dot_product(weights, history);
     uns8 pred = (result > 0) ? 1 : 0;
-
-    DEBUG(proc_id, "Perceptron prediction for op_num:%s index:%d result:%d pred:%d\n",
-          unsstr64(op->op_num), perceptron_index, result, pred);
 
     return pred;
 
@@ -73,8 +71,8 @@ void bp_perceptron_update(Op* op) {
     auto& weights = perceptron_state.perceptron_table[perceptron_index];
 
     std::vector<int> history(HIST_LENGTH);
-    for (int i = 0; i < HIST_LENGTH; ++i) {
-        history[i] = (hist & (1 << i)) ? 1 : -1;
+    for (uns i = 0; i < HIST_LENGTH; ++i) {
+         prediction += perceptron_state.weights[i + 1] * ((hist >> i) & 1 ? 1 : -1);
     }
 
     int result = compute_dot_product(weights, history);

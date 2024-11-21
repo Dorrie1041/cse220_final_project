@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/scarab.dir/bp/gshare.cc.o"
   "CMakeFiles/scarab.dir/bp/hybridgp.cc.o"
   "CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.o"
+  "CMakeFiles/scarab.dir/bp/perceptron.cc.o"
   "CMakeFiles/scarab.dir/bp/tagescl.cc.o"
   "CMakeFiles/scarab.dir/cmp_model.c.o"
   "CMakeFiles/scarab.dir/cmp_model_support.c.o"

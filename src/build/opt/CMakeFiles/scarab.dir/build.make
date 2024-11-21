@@ -174,9 +174,22 @@ CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongruishen/scarab/src/bp/mtage_unlimited.cc -o CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.s
 
+CMakeFiles/scarab.dir/bp/perceptron.cc.o: CMakeFiles/scarab.dir/flags.make
+CMakeFiles/scarab.dir/bp/perceptron.cc.o: ../../bp/perceptron.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/scarab.dir/bp/perceptron.cc.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/bp/perceptron.cc.o -c /home/dongruishen/scarab/src/bp/perceptron.cc
+
+CMakeFiles/scarab.dir/bp/perceptron.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scarab.dir/bp/perceptron.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongruishen/scarab/src/bp/perceptron.cc > CMakeFiles/scarab.dir/bp/perceptron.cc.i
+
+CMakeFiles/scarab.dir/bp/perceptron.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scarab.dir/bp/perceptron.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongruishen/scarab/src/bp/perceptron.cc -o CMakeFiles/scarab.dir/bp/perceptron.cc.s
+
 CMakeFiles/scarab.dir/bp/tagescl.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/bp/tagescl.cc.o: ../../bp/tagescl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/scarab.dir/bp/tagescl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/scarab.dir/bp/tagescl.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/bp/tagescl.cc.o -c /home/dongruishen/scarab/src/bp/tagescl.cc
 
 CMakeFiles/scarab.dir/bp/tagescl.cc.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/scarab.dir/bp/tagescl.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/debug/debug_print.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/debug/debug_print.c.o: ../../debug/debug_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/scarab.dir/debug/debug_print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/scarab.dir/debug/debug_print.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/debug/debug_print.c.o   -c /home/dongruishen/scarab/src/debug/debug_print.c
 
 CMakeFiles/scarab.dir/debug/debug_print.c.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/scarab.dir/debug/debug_print.c.s: cmake_force
 
 CMakeFiles/scarab.dir/debug/memview.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/debug/memview.c.o: ../../debug/memview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/scarab.dir/debug/memview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/scarab.dir/debug/memview.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/debug/memview.c.o   -c /home/dongruishen/scarab/src/debug/memview.c
 
 CMakeFiles/scarab.dir/debug/memview.c.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/scarab.dir/debug/memview.c.s: cmake_force
 
 CMakeFiles/scarab.dir/debug/pipeview.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/debug/pipeview.c.o: ../../debug/pipeview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/scarab.dir/debug/pipeview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/scarab.dir/debug/pipeview.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/debug/pipeview.c.o   -c /home/dongruishen/scarab/src/debug/pipeview.c
 
 CMakeFiles/scarab.dir/debug/pipeview.c.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/scarab.dir/debug/pipeview.c.s: cmake_force
 
 CMakeFiles/scarab.dir/dvfs/dvfs.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/dvfs/dvfs.c.o: ../../dvfs/dvfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/scarab.dir/dvfs/dvfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/scarab.dir/dvfs/dvfs.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/dvfs/dvfs.c.o   -c /home/dongruishen/scarab/src/dvfs/dvfs.c
 
 CMakeFiles/scarab.dir/dvfs/dvfs.c.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/scarab.dir/dvfs/dvfs.c.s: cmake_force
 
 CMakeFiles/scarab.dir/dvfs/perf_pred.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/dvfs/perf_pred.c.o: ../../dvfs/perf_pred.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/scarab.dir/dvfs/perf_pred.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/scarab.dir/dvfs/perf_pred.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/dvfs/perf_pred.c.o   -c /home/dongruishen/scarab/src/dvfs/perf_pred.c
 
 CMakeFiles/scarab.dir/dvfs/perf_pred.c.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/scarab.dir/dvfs/perf_pred.c.s: cmake_force
 
 CMakeFiles/scarab.dir/dvfs/power_pred.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/dvfs/power_pred.c.o: ../../dvfs/power_pred.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/scarab.dir/dvfs/power_pred.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/scarab.dir/dvfs/power_pred.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/dvfs/power_pred.c.o   -c /home/dongruishen/scarab/src/dvfs/power_pred.c
 
 CMakeFiles/scarab.dir/dvfs/power_pred.c.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/scarab.dir/dvfs/power_pred.c.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/frontend.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/frontend.c.o: ../../frontend/frontend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/scarab.dir/frontend/frontend.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/scarab.dir/frontend/frontend.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/frontend/frontend.c.o   -c /home/dongruishen/scarab/src/frontend/frontend.c
 
 CMakeFiles/scarab.dir/frontend/frontend.c.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/scarab.dir/frontend/frontend.c.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/frontend_intf.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/frontend_intf.c.o: ../../frontend/frontend_intf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/scarab.dir/frontend/frontend_intf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/scarab.dir/frontend/frontend_intf.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/frontend/frontend_intf.c.o   -c /home/dongruishen/scarab/src/frontend/frontend_intf.c
 
 CMakeFiles/scarab.dir/frontend/frontend_intf.c.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/scarab.dir/frontend/frontend_intf.c.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.o: ../../frontend/pin_exec_driven_fe.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.o -c /home/dongruishen/scarab/src/frontend/pin_exec_driven_fe.cc
 
 CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/scarab.dir/frontend/pin_exec_driven_fe.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.o: ../../frontend/pin_trace_fe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.o   -c /home/dongruishen/scarab/src/frontend/pin_trace_fe.c
 
 CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/scarab.dir/frontend/pin_trace_fe.c.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.o: ../../frontend/pin_trace_read.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.o -c /home/dongruishen/scarab/src/frontend/pin_trace_read.cc
 
 CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/scarab.dir/frontend/pin_trace_read.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/globals/enum.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/globals/enum.c.o: ../../globals/enum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/scarab.dir/globals/enum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/scarab.dir/globals/enum.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/globals/enum.c.o   -c /home/dongruishen/scarab/src/globals/enum.c
 
 CMakeFiles/scarab.dir/globals/enum.c.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/scarab.dir/globals/enum.c.s: cmake_force
 
 CMakeFiles/scarab.dir/globals/utils.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/globals/utils.c.o: ../../globals/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/scarab.dir/globals/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/scarab.dir/globals/utils.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/globals/utils.c.o   -c /home/dongruishen/scarab/src/globals/utils.c
 
 CMakeFiles/scarab.dir/globals/utils.c.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/scarab.dir/globals/utils.c.s: cmake_force
 
 CMakeFiles/scarab.dir/isa/isa.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/isa/isa.c.o: ../../isa/isa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/scarab.dir/isa/isa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/scarab.dir/isa/isa.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/isa/isa.c.o   -c /home/dongruishen/scarab/src/isa/isa.c
 
 CMakeFiles/scarab.dir/isa/isa.c.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/scarab.dir/isa/isa.c.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/cache_lib.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/cache_lib.c.o: ../../libs/cache_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/scarab.dir/libs/cache_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/scarab.dir/libs/cache_lib.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/libs/cache_lib.c.o   -c /home/dongruishen/scarab/src/libs/cache_lib.c
 
 CMakeFiles/scarab.dir/libs/cache_lib.c.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/scarab.dir/libs/cache_lib.c.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.o: ../../libs/cpp_hash_lib_wrapper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.o -c /home/dongruishen/scarab/src/libs/cpp_hash_lib_wrapper.cc
 
 CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.i: cmake_force
@@ -397,7 +410,7 @@ CMakeFiles/scarab.dir/libs/cpp_hash_lib_wrapper.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/hash_lib.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/hash_lib.c.o: ../../libs/hash_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/scarab.dir/libs/hash_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/scarab.dir/libs/hash_lib.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/libs/hash_lib.c.o   -c /home/dongruishen/scarab/src/libs/hash_lib.c
 
 CMakeFiles/scarab.dir/libs/hash_lib.c.i: cmake_force
@@ -410,7 +423,7 @@ CMakeFiles/scarab.dir/libs/hash_lib.c.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/list_lib.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/list_lib.c.o: ../../libs/list_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/scarab.dir/libs/list_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/scarab.dir/libs/list_lib.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/libs/list_lib.c.o   -c /home/dongruishen/scarab/src/libs/list_lib.c
 
 CMakeFiles/scarab.dir/libs/list_lib.c.i: cmake_force
@@ -423,7 +436,7 @@ CMakeFiles/scarab.dir/libs/list_lib.c.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/malloc_lib.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/malloc_lib.c.o: ../../libs/malloc_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/scarab.dir/libs/malloc_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/scarab.dir/libs/malloc_lib.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/libs/malloc_lib.c.o   -c /home/dongruishen/scarab/src/libs/malloc_lib.c
 
 CMakeFiles/scarab.dir/libs/malloc_lib.c.i: cmake_force
@@ -436,7 +449,7 @@ CMakeFiles/scarab.dir/libs/malloc_lib.c.s: cmake_force
 
 CMakeFiles/scarab.dir/libs/port_lib.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/libs/port_lib.c.o: ../../libs/port_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/scarab.dir/libs/port_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/scarab.dir/libs/port_lib.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/libs/port_lib.c.o   -c /home/dongruishen/scarab/src/libs/port_lib.c
 
 CMakeFiles/scarab.dir/libs/port_lib.c.i: cmake_force
@@ -449,7 +462,7 @@ CMakeFiles/scarab.dir/libs/port_lib.c.s: cmake_force
 
 CMakeFiles/scarab.dir/memory/cache_part.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/memory/cache_part.c.o: ../../memory/cache_part.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/scarab.dir/memory/cache_part.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/scarab.dir/memory/cache_part.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/memory/cache_part.c.o   -c /home/dongruishen/scarab/src/memory/cache_part.c
 
 CMakeFiles/scarab.dir/memory/cache_part.c.i: cmake_force
@@ -462,7 +475,7 @@ CMakeFiles/scarab.dir/memory/cache_part.c.s: cmake_force
 
 CMakeFiles/scarab.dir/memory/mem_req.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/memory/mem_req.c.o: ../../memory/mem_req.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/scarab.dir/memory/mem_req.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/scarab.dir/memory/mem_req.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/memory/mem_req.c.o   -c /home/dongruishen/scarab/src/memory/mem_req.c
 
 CMakeFiles/scarab.dir/memory/mem_req.c.i: cmake_force
@@ -475,7 +488,7 @@ CMakeFiles/scarab.dir/memory/mem_req.c.s: cmake_force
 
 CMakeFiles/scarab.dir/memory/memory.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/memory/memory.c.o: ../../memory/memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/scarab.dir/memory/memory.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/scarab.dir/memory/memory.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/memory/memory.c.o   -c /home/dongruishen/scarab/src/memory/memory.c
 
 CMakeFiles/scarab.dir/memory/memory.c.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/scarab.dir/memory/memory.c.s: cmake_force
 
 CMakeFiles/scarab.dir/power/power_intf.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/power/power_intf.c.o: ../../power/power_intf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/scarab.dir/power/power_intf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/scarab.dir/power/power_intf.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/power/power_intf.c.o   -c /home/dongruishen/scarab/src/power/power_intf.c
 
 CMakeFiles/scarab.dir/power/power_intf.c.i: cmake_force
@@ -501,7 +514,7 @@ CMakeFiles/scarab.dir/power/power_intf.c.s: cmake_force
 
 CMakeFiles/scarab.dir/power/power_scarab_config.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/power/power_scarab_config.cc.o: ../../power/power_scarab_config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/scarab.dir/power/power_scarab_config.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/scarab.dir/power/power_scarab_config.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/power/power_scarab_config.cc.o -c /home/dongruishen/scarab/src/power/power_scarab_config.cc
 
 CMakeFiles/scarab.dir/power/power_scarab_config.cc.i: cmake_force
@@ -514,7 +527,7 @@ CMakeFiles/scarab.dir/power/power_scarab_config.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.o: ../../prefetcher/D_JOLT.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.o -c /home/dongruishen/scarab/src/prefetcher/D_JOLT.cc
 
 CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.i: cmake_force
@@ -527,7 +540,7 @@ CMakeFiles/scarab.dir/prefetcher/D_JOLT.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.o: ../../prefetcher/FNL+MMA.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.o -c /home/dongruishen/scarab/src/prefetcher/FNL+MMA.cc
 
 CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.i: cmake_force
@@ -540,7 +553,7 @@ CMakeFiles/scarab.dir/prefetcher/FNL+MMA.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.o: ../../prefetcher/branch_misprediction_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.o   -c /home/dongruishen/scarab/src/prefetcher/branch_misprediction_table.c
 
 CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.i: cmake_force
@@ -553,7 +566,7 @@ CMakeFiles/scarab.dir/prefetcher/branch_misprediction_table.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/eip.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/eip.cc.o: ../../prefetcher/eip.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/scarab.dir/prefetcher/eip.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/scarab.dir/prefetcher/eip.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/eip.cc.o -c /home/dongruishen/scarab/src/prefetcher/eip.cc
 
 CMakeFiles/scarab.dir/prefetcher/eip.cc.i: cmake_force
@@ -566,7 +579,7 @@ CMakeFiles/scarab.dir/prefetcher/eip.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.o: ../../prefetcher/fdip_new.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.o -c /home/dongruishen/scarab/src/prefetcher/fdip_new.cc
 
 CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.i: cmake_force
@@ -579,7 +592,7 @@ CMakeFiles/scarab.dir/prefetcher/fdip_new.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.o: ../../prefetcher/l2l1pref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.o   -c /home/dongruishen/scarab/src/prefetcher/l2l1pref.c
 
 CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.i: cmake_force
@@ -592,7 +605,7 @@ CMakeFiles/scarab.dir/prefetcher/l2l1pref.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.o: ../../prefetcher/l2markv_pref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.o   -c /home/dongruishen/scarab/src/prefetcher/l2markv_pref.c
 
 CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.i: cmake_force
@@ -605,7 +618,7 @@ CMakeFiles/scarab.dir/prefetcher/l2markv_pref.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.o: ../../prefetcher/l2way_pref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.o   -c /home/dongruishen/scarab/src/prefetcher/l2way_pref.c
 
 CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.i: cmake_force
@@ -618,7 +631,7 @@ CMakeFiles/scarab.dir/prefetcher/l2way_pref.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.o: ../../prefetcher/pref_2dc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_2dc.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.i: cmake_force
@@ -631,7 +644,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_2dc.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_common.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_common.c.o: ../../prefetcher/pref_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_common.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_common.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_common.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_common.c.i: cmake_force
@@ -644,7 +657,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_common.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.o: ../../prefetcher/pref_ghb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_ghb.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.i: cmake_force
@@ -657,7 +670,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_ghb.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_markov.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_markov.c.o: ../../prefetcher/pref_markov.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_markov.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_markov.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_markov.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_markov.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_markov.c.i: cmake_force
@@ -670,7 +683,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_markov.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_phase.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_phase.c.o: ../../prefetcher/pref_phase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_phase.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_phase.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_phase.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_phase.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_phase.c.i: cmake_force
@@ -683,7 +696,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_phase.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_stream.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_stream.c.o: ../../prefetcher/pref_stream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stream.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stream.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_stream.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_stream.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_stream.c.i: cmake_force
@@ -696,7 +709,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_stream.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_stride.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_stride.c.o: ../../prefetcher/pref_stride.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stride.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stride.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_stride.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_stride.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_stride.c.i: cmake_force
@@ -709,7 +722,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_stride.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.o: ../../prefetcher/pref_stridepc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.o   -c /home/dongruishen/scarab/src/prefetcher/pref_stridepc.c
 
 CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.i: cmake_force
@@ -722,7 +735,7 @@ CMakeFiles/scarab.dir/prefetcher/pref_stridepc.c.s: cmake_force
 
 CMakeFiles/scarab.dir/prefetcher/stream_pref.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/prefetcher/stream_pref.c.o: ../../prefetcher/stream_pref.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/scarab.dir/prefetcher/stream_pref.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/scarab.dir/prefetcher/stream_pref.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/prefetcher/stream_pref.c.o   -c /home/dongruishen/scarab/src/prefetcher/stream_pref.c
 
 CMakeFiles/scarab.dir/prefetcher/stream_pref.c.i: cmake_force
@@ -735,7 +748,7 @@ CMakeFiles/scarab.dir/prefetcher/stream_pref.c.s: cmake_force
 
 CMakeFiles/scarab.dir/addr_trans.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/addr_trans.c.o: ../../addr_trans.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/scarab.dir/addr_trans.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/scarab.dir/addr_trans.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/addr_trans.c.o   -c /home/dongruishen/scarab/src/addr_trans.c
 
 CMakeFiles/scarab.dir/addr_trans.c.i: cmake_force
@@ -748,7 +761,7 @@ CMakeFiles/scarab.dir/addr_trans.c.s: cmake_force
 
 CMakeFiles/scarab.dir/cmp_model.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/cmp_model.c.o: ../../cmp_model.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/scarab.dir/cmp_model.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/scarab.dir/cmp_model.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/cmp_model.c.o   -c /home/dongruishen/scarab/src/cmp_model.c
 
 CMakeFiles/scarab.dir/cmp_model.c.i: cmake_force
@@ -761,7 +774,7 @@ CMakeFiles/scarab.dir/cmp_model.c.s: cmake_force
 
 CMakeFiles/scarab.dir/cmp_model_support.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/cmp_model_support.c.o: ../../cmp_model_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/scarab.dir/cmp_model_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/scarab.dir/cmp_model_support.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/cmp_model_support.c.o   -c /home/dongruishen/scarab/src/cmp_model_support.c
 
 CMakeFiles/scarab.dir/cmp_model_support.c.i: cmake_force
@@ -774,7 +787,7 @@ CMakeFiles/scarab.dir/cmp_model_support.c.s: cmake_force
 
 CMakeFiles/scarab.dir/dcache_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/dcache_stage.c.o: ../../dcache_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/scarab.dir/dcache_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/scarab.dir/dcache_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/dcache_stage.c.o   -c /home/dongruishen/scarab/src/dcache_stage.c
 
 CMakeFiles/scarab.dir/dcache_stage.c.i: cmake_force
@@ -787,7 +800,7 @@ CMakeFiles/scarab.dir/dcache_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/decode_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/decode_stage.c.o: ../../decode_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/scarab.dir/decode_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/scarab.dir/decode_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/decode_stage.c.o   -c /home/dongruishen/scarab/src/decode_stage.c
 
 CMakeFiles/scarab.dir/decode_stage.c.i: cmake_force
@@ -800,7 +813,7 @@ CMakeFiles/scarab.dir/decode_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/decoupled_frontend.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/decoupled_frontend.cc.o: ../../decoupled_frontend.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/scarab.dir/decoupled_frontend.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/scarab.dir/decoupled_frontend.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/decoupled_frontend.cc.o -c /home/dongruishen/scarab/src/decoupled_frontend.cc
 
 CMakeFiles/scarab.dir/decoupled_frontend.cc.i: cmake_force
@@ -813,7 +826,7 @@ CMakeFiles/scarab.dir/decoupled_frontend.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/dumb_model.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/dumb_model.c.o: ../../dumb_model.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/scarab.dir/dumb_model.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/scarab.dir/dumb_model.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/dumb_model.c.o   -c /home/dongruishen/scarab/src/dumb_model.c
 
 CMakeFiles/scarab.dir/dumb_model.c.i: cmake_force
@@ -826,7 +839,7 @@ CMakeFiles/scarab.dir/dumb_model.c.s: cmake_force
 
 CMakeFiles/scarab.dir/exec_ports.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/exec_ports.c.o: ../../exec_ports.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/scarab.dir/exec_ports.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/scarab.dir/exec_ports.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/exec_ports.c.o   -c /home/dongruishen/scarab/src/exec_ports.c
 
 CMakeFiles/scarab.dir/exec_ports.c.i: cmake_force
@@ -839,7 +852,7 @@ CMakeFiles/scarab.dir/exec_ports.c.s: cmake_force
 
 CMakeFiles/scarab.dir/exec_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/exec_stage.c.o: ../../exec_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/scarab.dir/exec_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/scarab.dir/exec_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/exec_stage.c.o   -c /home/dongruishen/scarab/src/exec_stage.c
 
 CMakeFiles/scarab.dir/exec_stage.c.i: cmake_force
@@ -852,7 +865,7 @@ CMakeFiles/scarab.dir/exec_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/freq.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/freq.c.o: ../../freq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/scarab.dir/freq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/scarab.dir/freq.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/freq.c.o   -c /home/dongruishen/scarab/src/freq.c
 
 CMakeFiles/scarab.dir/freq.c.i: cmake_force
@@ -865,7 +878,7 @@ CMakeFiles/scarab.dir/freq.c.s: cmake_force
 
 CMakeFiles/scarab.dir/icache_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/icache_stage.c.o: ../../icache_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/scarab.dir/icache_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/scarab.dir/icache_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/icache_stage.c.o   -c /home/dongruishen/scarab/src/icache_stage.c
 
 CMakeFiles/scarab.dir/icache_stage.c.i: cmake_force
@@ -878,7 +891,7 @@ CMakeFiles/scarab.dir/icache_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/main.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/main.c.o: ../../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/scarab.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/scarab.dir/main.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/main.c.o   -c /home/dongruishen/scarab/src/main.c
 
 CMakeFiles/scarab.dir/main.c.i: cmake_force
@@ -891,7 +904,7 @@ CMakeFiles/scarab.dir/main.c.s: cmake_force
 
 CMakeFiles/scarab.dir/map.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/map.c.o: ../../map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/scarab.dir/map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/scarab.dir/map.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/map.c.o   -c /home/dongruishen/scarab/src/map.c
 
 CMakeFiles/scarab.dir/map.c.i: cmake_force
@@ -904,7 +917,7 @@ CMakeFiles/scarab.dir/map.c.s: cmake_force
 
 CMakeFiles/scarab.dir/map_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/map_stage.c.o: ../../map_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/scarab.dir/map_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/scarab.dir/map_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/map_stage.c.o   -c /home/dongruishen/scarab/src/map_stage.c
 
 CMakeFiles/scarab.dir/map_stage.c.i: cmake_force
@@ -917,7 +930,7 @@ CMakeFiles/scarab.dir/map_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/node_stage.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/node_stage.c.o: ../../node_stage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/scarab.dir/node_stage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/scarab.dir/node_stage.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/node_stage.c.o   -c /home/dongruishen/scarab/src/node_stage.c
 
 CMakeFiles/scarab.dir/node_stage.c.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/scarab.dir/node_stage.c.s: cmake_force
 
 CMakeFiles/scarab.dir/op_pool.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/op_pool.c.o: ../../op_pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/scarab.dir/op_pool.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/scarab.dir/op_pool.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/op_pool.c.o   -c /home/dongruishen/scarab/src/op_pool.c
 
 CMakeFiles/scarab.dir/op_pool.c.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/scarab.dir/op_pool.c.s: cmake_force
 
 CMakeFiles/scarab.dir/optimizer2.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/optimizer2.c.o: ../../optimizer2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/scarab.dir/optimizer2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/scarab.dir/optimizer2.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/optimizer2.c.o   -c /home/dongruishen/scarab/src/optimizer2.c
 
 CMakeFiles/scarab.dir/optimizer2.c.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/scarab.dir/optimizer2.c.s: cmake_force
 
 CMakeFiles/scarab.dir/param_parser.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/param_parser.c.o: ../../param_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/scarab.dir/param_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/scarab.dir/param_parser.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/param_parser.c.o   -c /home/dongruishen/scarab/src/param_parser.c
 
 CMakeFiles/scarab.dir/param_parser.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/scarab.dir/param_parser.c.s: cmake_force
 
 CMakeFiles/scarab.dir/ramulator.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/ramulator.cc.o: ../../ramulator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/scarab.dir/ramulator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/scarab.dir/ramulator.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/ramulator.cc.o -c /home/dongruishen/scarab/src/ramulator.cc
 
 CMakeFiles/scarab.dir/ramulator.cc.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/scarab.dir/ramulator.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/sim.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/sim.c.o: ../../sim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/scarab.dir/sim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/scarab.dir/sim.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/sim.c.o   -c /home/dongruishen/scarab/src/sim.c
 
 CMakeFiles/scarab.dir/sim.c.i: cmake_force
@@ -995,7 +1008,7 @@ CMakeFiles/scarab.dir/sim.c.s: cmake_force
 
 CMakeFiles/scarab.dir/stat_mon.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/stat_mon.c.o: ../../stat_mon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/scarab.dir/stat_mon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/scarab.dir/stat_mon.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/stat_mon.c.o   -c /home/dongruishen/scarab/src/stat_mon.c
 
 CMakeFiles/scarab.dir/stat_mon.c.i: cmake_force
@@ -1008,7 +1021,7 @@ CMakeFiles/scarab.dir/stat_mon.c.s: cmake_force
 
 CMakeFiles/scarab.dir/stat_trace.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/stat_trace.c.o: ../../stat_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/scarab.dir/stat_trace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/scarab.dir/stat_trace.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/stat_trace.c.o   -c /home/dongruishen/scarab/src/stat_trace.c
 
 CMakeFiles/scarab.dir/stat_trace.c.i: cmake_force
@@ -1021,7 +1034,7 @@ CMakeFiles/scarab.dir/stat_trace.c.s: cmake_force
 
 CMakeFiles/scarab.dir/statistics.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/statistics.c.o: ../../statistics.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/scarab.dir/statistics.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/scarab.dir/statistics.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/statistics.c.o   -c /home/dongruishen/scarab/src/statistics.c
 
 CMakeFiles/scarab.dir/statistics.c.i: cmake_force
@@ -1034,7 +1047,7 @@ CMakeFiles/scarab.dir/statistics.c.s: cmake_force
 
 CMakeFiles/scarab.dir/thread.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/thread.c.o: ../../thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/scarab.dir/thread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/scarab.dir/thread.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/thread.c.o   -c /home/dongruishen/scarab/src/thread.c
 
 CMakeFiles/scarab.dir/thread.c.i: cmake_force
@@ -1047,7 +1060,7 @@ CMakeFiles/scarab.dir/thread.c.s: cmake_force
 
 CMakeFiles/scarab.dir/trigger.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/trigger.c.o: ../../trigger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/scarab.dir/trigger.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/scarab.dir/trigger.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/trigger.c.o   -c /home/dongruishen/scarab/src/trigger.c
 
 CMakeFiles/scarab.dir/trigger.c.i: cmake_force
@@ -1060,7 +1073,7 @@ CMakeFiles/scarab.dir/trigger.c.s: cmake_force
 
 CMakeFiles/scarab.dir/uop_cache.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/uop_cache.cc.o: ../../uop_cache.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/scarab.dir/uop_cache.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/scarab.dir/uop_cache.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/uop_cache.cc.o -c /home/dongruishen/scarab/src/uop_cache.cc
 
 CMakeFiles/scarab.dir/uop_cache.cc.i: cmake_force
@@ -1073,7 +1086,7 @@ CMakeFiles/scarab.dir/uop_cache.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/uop_queue_stage.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/uop_queue_stage.cc.o: ../../uop_queue_stage.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/scarab.dir/uop_queue_stage.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/scarab.dir/uop_queue_stage.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/uop_queue_stage.cc.o -c /home/dongruishen/scarab/src/uop_queue_stage.cc
 
 CMakeFiles/scarab.dir/uop_queue_stage.cc.i: cmake_force
@@ -1086,7 +1099,7 @@ CMakeFiles/scarab.dir/uop_queue_stage.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/version.c.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/version.c.o: ../../version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/scarab.dir/version.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/scarab.dir/version.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scarab.dir/version.c.o   -c /home/dongruishen/scarab/src/version.c
 
 CMakeFiles/scarab.dir/version.c.i: cmake_force
@@ -1099,7 +1112,7 @@ CMakeFiles/scarab.dir/version.c.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.o: ../../frontend/pt_memtrace/memtrace_fe.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.o -c /home/dongruishen/scarab/src/frontend/pt_memtrace/memtrace_fe.cc
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.i: cmake_force
@@ -1112,7 +1125,7 @@ CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_fe.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.o: ../../frontend/pt_memtrace/memtrace_trace_reader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.o -c /home/dongruishen/scarab/src/frontend/pt_memtrace/memtrace_trace_reader.cc
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.i: cmake_force
@@ -1125,7 +1138,7 @@ CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader.cc.s: cmake_for
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.o: ../../frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.o -c /home/dongruishen/scarab/src/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.i: cmake_force
@@ -1138,7 +1151,7 @@ CMakeFiles/scarab.dir/frontend/pt_memtrace/memtrace_trace_reader_memtrace.cc.s: 
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.o: ../../frontend/pt_memtrace/pt_fe.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.o -c /home/dongruishen/scarab/src/frontend/pt_memtrace/pt_fe.cc
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.i: cmake_force
@@ -1151,7 +1164,7 @@ CMakeFiles/scarab.dir/frontend/pt_memtrace/pt_fe.cc.s: cmake_force
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.o: CMakeFiles/scarab.dir/flags.make
 CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.o: ../../frontend/pt_memtrace/trace_fe.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.o -c /home/dongruishen/scarab/src/frontend/pt_memtrace/trace_fe.cc
 
 CMakeFiles/scarab.dir/frontend/pt_memtrace/trace_fe.cc.i: cmake_force
@@ -1173,6 +1186,7 @@ scarab_OBJECTS = \
 "CMakeFiles/scarab.dir/bp/gshare.cc.o" \
 "CMakeFiles/scarab.dir/bp/hybridgp.cc.o" \
 "CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.o" \
+"CMakeFiles/scarab.dir/bp/perceptron.cc.o" \
 "CMakeFiles/scarab.dir/bp/tagescl.cc.o" \
 "CMakeFiles/scarab.dir/debug/debug_print.c.o" \
 "CMakeFiles/scarab.dir/debug/memview.c.o" \
@@ -1262,6 +1276,7 @@ scarab: CMakeFiles/scarab.dir/bp/cbp_to_scarab.cc.o
 scarab: CMakeFiles/scarab.dir/bp/gshare.cc.o
 scarab: CMakeFiles/scarab.dir/bp/hybridgp.cc.o
 scarab: CMakeFiles/scarab.dir/bp/mtage_unlimited.cc.o
+scarab: CMakeFiles/scarab.dir/bp/perceptron.cc.o
 scarab: CMakeFiles/scarab.dir/bp/tagescl.cc.o
 scarab: CMakeFiles/scarab.dir/debug/debug_print.c.o
 scarab: CMakeFiles/scarab.dir/debug/memview.c.o
@@ -1365,7 +1380,7 @@ scarab: /usr/lib/x86_64-linux-gnu/libpthread.so
 scarab: /usr/lib/x86_64-linux-gnu/libz.so
 scarab: deps/dynamorio/clients/lib64/release/libminizip.a
 scarab: CMakeFiles/scarab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking CXX executable scarab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dongruishen/scarab/src/build/opt/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable scarab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scarab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
