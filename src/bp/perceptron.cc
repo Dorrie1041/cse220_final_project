@@ -2,7 +2,6 @@
 #include <vector>
 #include <cmath>
 #include <iostream>
-#include <algorithm>
 
 extern "C" {
 #include "bp.param.h"
@@ -13,7 +12,7 @@ extern "C" {
 
 #define MAX_WT 127
 #define MIN_WT -128
-#define THETA floor(std::floor(1.93 * HIST_LENGTH + 14))
+#define THETA static_cast<int>(std::floor(1.93 * HIST_LENGTH + 14))
 
 namespace{
     struct PerceptronState{
@@ -22,13 +21,18 @@ namespace{
 
     std::vector<PerceptronState> perceptron_state_all_cores;
 
-    int compute_dot_product(const std::vector<int>& weights, const std::vector<int>& history){
+    template <typename T>
+    T clamp(T value, T min_value, T max_value){
+        return (value < min_value) ? min_value : (value > max_value ? max_value : value);
+    }
+
+    int compute_dot_product(const std::vector<int>& weights, const std::vector<int>& history) {
         int dot_product = weights[0];
-        for (size_t i = 0; i< history.size(); ++i){
-            dot_product += weights[i+1] * history[i];
+        for (uns i = 0; i < history.size(); ++i) {
+            dot_product += weights[i + 1] * history[i];
         }
         return dot_product;
-    }
+    }    
 } //namespace
 
 void bp_perceptron_init() {
@@ -50,7 +54,7 @@ uns8 bp_perceptron_pred(Op* op){
 
     std::vector<int> history(HIST_LENGTH);
     for (uns i = 0; i < HIST_LENGTH; ++i){
-         prediction += perceptron_state.weights[i + 1] * ((hist >> i) & 1 ? 1 : -1);
+         history[i] = (hist & (1 << i)) ? 1 : -1;
     }
 
     int result = compute_dot_product(weights, history);
@@ -60,6 +64,7 @@ uns8 bp_perceptron_pred(Op* op){
 
 }
 void bp_perceptron_spec_update(Op* op) {}
+
 void bp_perceptron_update(Op* op) {
     const uns proc_id = op->proc_id;
     auto& perceptron_state = perceptron_state_all_cores.at(proc_id);
@@ -72,7 +77,7 @@ void bp_perceptron_update(Op* op) {
 
     std::vector<int> history(HIST_LENGTH);
     for (uns i = 0; i < HIST_LENGTH; ++i) {
-         prediction += perceptron_state.weights[i + 1] * ((hist >> i) & 1 ? 1 : -1);
+         history[i] = (hist & (1 << i)) ? 1 : -1;
     }
 
     int result = compute_dot_product(weights, history);
@@ -80,11 +85,11 @@ void bp_perceptron_update(Op* op) {
 
     if (prediction != actual || abs(result) < THETA){
         weights[0] += (actual ? 1 : -1);
-        weights[0] = std::clamp(weights[0], MIN_WT, MAX_WT);
+        weights[0] = clamp(weights[0], MIN_WT, MAX_WT);
 
         for (int i = 0; i < HIST_LENGTH; ++i){
             weights[i + 1] += (actual ? history[i] : -history[i]);
-            weights[i + 1] = std::clamp(weights[i + 1], MIN_WT, MAX_WT);
+            weights[i + 1] = clamp(weights[i + 1], MIN_WT, MAX_WT);
         }
     }
 
