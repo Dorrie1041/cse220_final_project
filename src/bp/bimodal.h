@@ -7,6 +7,7 @@ extern "C"{
 
 #include "bp/bp.h"
 
+/*************Interface to Scarab***************/
 void bp_bimodal_init(void);
 void bp_bimodal_timestamp(Op*);
 uns8 bp_bimodal_pred(Op*);
