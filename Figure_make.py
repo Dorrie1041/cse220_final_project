@@ -78,7 +78,7 @@ def get_branch_misprediction_ratio(descriptor_data, sim_path, output_dir):
         benchmarks.append('Avg')
 
         # Plot the Branch Misprediction Ratio data
-        plot_data(benchmarks, branch_mispred_ratio, 'Branch Misprediction Ratio', output_dir + '/Branch_Misprediction_Ratio_2.png')
+        plot_data(benchmarks, branch_mispred_ratio, 'Branch Misprediction Ratio', output_dir + '/Branch_Misprediction_Ratio.png')
 
     except Exception as e:
         print(e)
